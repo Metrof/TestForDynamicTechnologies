@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &631874444127175286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628203055014991625}
+  - component: {fileID: 7117551640228199197}
+  m_Layer: 0
+  m_Name: SphereSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1628203055014991625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631874444127175286}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7117551640228199197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631874444127175286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0f8011e1c9ea841bffb97d8d4d91ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _materials:
+  - {fileID: 2100000, guid: a1b91d5975caa664584efc07d825997b, type: 2}
+  - {fileID: 2100000, guid: 602181af1c501a04db93b8e9c544557c, type: 2}
+  - {fileID: 2100000, guid: fb601404e1923624082d0e55ed029d5f, type: 2}
+  - {fileID: 2100000, guid: b0bef45aa15dceb43af49f36d3bcee45, type: 2}
+  - {fileID: 2100000, guid: e78bece762833244189fc69ce4a8779e, type: 2}
+  - {fileID: 2100000, guid: c84ef5321e294f34494cfc4dc419c456, type: 2}
+  - {fileID: 2100000, guid: 87abc991c67922a4b98d5c6d6af14c84, type: 2}
+  - {fileID: 2100000, guid: 0422a43cdd9c4eb46b97846509337bbf, type: 2}
+  - {fileID: 2100000, guid: c096063b424af7744b9401e3bca4caf2, type: 2}
+  - {fileID: 2100000, guid: e89c3e686d632fa44b498c87d6a4b87e, type: 2}
+  _spherePrefab: {fileID: 2847605590835552946, guid: 5651dcf9aa6588c4683929dafec9e2f9, type: 3}
+  _sphereCount: 10
+  _createRadius: 5
